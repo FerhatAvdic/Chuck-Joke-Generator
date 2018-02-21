@@ -19,6 +19,7 @@ function getJokes(e){
                 output += '<li>Something went wrong...</li>'
             }
             document.querySelector('.jokes').innerHTML = output;
+            let githubPages;
         }
     };
     xhr.send();
